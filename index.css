@@ -1,0 +1,193 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    display: flex;
+    font-family: 'Roboto Mono', monospace;
+	line-height: 1;
+    flex-direction:column;
+    margin: auto;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h2 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 3.5rem;
+}
+
+.widthStyle {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+    color: white;
+}
+
+.topContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin: 4% 0;
+}
+
+.imgContainer {
+    width: 20%;
+}
+
+.imgContainer img {
+    width: 100%;
+    border-radius: 250px;
+}
+
+.topText {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.topText p {
+    width: 80%;
+    font-weight: bold;
+}
+
+.mainText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #DDB9A3;
+    color: white;
+    margin-bottom: 2%;
+}
+
+.mainText p {
+    padding: 1% 1%;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+.tips {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8%;
+}
+
+.tips p {
+    width: 45%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.fireContainer {
+    width: 15%;
+}
+
+.fireContainer img {
+    width: 100%;
+}
+
+.truckContainer {
+    width: 15%;
+}
+
+.truckContainer img {
+    width: 100%;
+}
+
+.visit {
+    background-color: #FF764E;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.learn {
+    background-color: #5ED3EB;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.involve {
+    background-color: #FFCD69;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.fee {
+    font-weight: bold;
+}
+
+.fire {
+    font-weight: bold;
+}
+
+.footerImgContainer {
+    height: 360px;
+}
+
+.footerImgContainer img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+footer {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F9E7DC;
+    width: 100%;
+    padding: 2% 0;
+}
